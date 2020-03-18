@@ -14,7 +14,7 @@ Security in case of vulnerabilities. (Безопасность в случае �
 ### Added
 - Init
 
-[Unreleased]: https://github.com/olivierlacan/keep-a-changelog/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/olivierlacan/keep-a-changelog/compare/v0.1.0...v1.0.0
-[0.1.0]: https://github.com/olivierlacan/keep-a-changelog/compare/v0.0.1...v0.1.0
-[0.0.1]: https://github.com/olivierlacan/keep-a-changelog/releases/tag/v0.0.1
+[Unreleased]: ../../compare/v1.0.0...HEAD
+[1.0.0]: ../../compare/v0.1.0...v1.0.0
+[0.1.0]: ../../compare/v0.0.1...v0.1.0
+[0.0.1]: ../../releases/tag/v0.0.1
