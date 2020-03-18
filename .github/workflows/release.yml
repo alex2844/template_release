@@ -14,7 +14,7 @@ jobs:
         id: vars
         run: |
           version=${GITHUB_REF/refs\/tags\//}
-          log=$((test -f CHANGELOG.md && (sed "1,/\[${version:1}\]/d;/## \[/Q" CHANGELOG.md | sed '/^$/d')) || echo '')
+          log=$((test -f CHANGELOG.md && (sed "1,/\[${version:1}\]/d;/\[/Q" CHANGELOG.md | sed '/^$/d')) || echo '')
           log="${log//'%'/'%25'}"
           log="${log//$'\n'/'%0A'}"
           log="${log//$'\r'/'%0D'}"
